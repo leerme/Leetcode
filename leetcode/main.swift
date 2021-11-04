@@ -9,6 +9,6 @@
 import Foundation
 
 print("Hello, World!") 
-let i = Solution_6.init().convert("PAYPALISHIRING", 3);
+//let i = Solution_1.init().twoSum(<#T##nums: [Int]##[Int]#>, <#T##target: Int##Int#>)
 NSLog("%d", i);
 
