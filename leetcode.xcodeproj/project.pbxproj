@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3418CE352733967B006C5B58 /* Solution_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418CE342733967B006C5B58 /* Solution_1.swift */; };
+		3418CE382733E0C4006C5B58 /* Solution_7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418CE372733E0C4006C5B58 /* Solution_7.swift */; };
 		3485BC962500E1A9001FE568 /* Solution_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3485BC952500E1A9001FE568 /* Solution_3.swift */; };
 		3485BC992501EFFE001FE568 /* Solution_76.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3485BC982501EFFE001FE568 /* Solution_76.swift */; };
 		348A521F27329A28006C301B /* Solution_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A521E27329A28006C301B /* Solution_6.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		3418CE342733967B006C5B58 /* Solution_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_1.swift; sourceTree = "<group>"; };
+		3418CE372733E0C4006C5B58 /* Solution_7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_7.swift; sourceTree = "<group>"; };
 		3485BC952500E1A9001FE568 /* Solution_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_3.swift; sourceTree = "<group>"; };
 		3485BC982501EFFE001FE568 /* Solution_76.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_76.swift; sourceTree = "<group>"; };
 		348A521E27329A28006C301B /* Solution_6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_6.swift; sourceTree = "<group>"; };
@@ -68,6 +70,14 @@
 				3418CE342733967B006C5B58 /* Solution_1.swift */,
 			);
 			path = "0001_ 两数之和";
+			sourceTree = "<group>";
+		};
+		3418CE362733E06A006C5B58 /* 0007_整数反转 */ = {
+			isa = PBXGroup;
+			children = (
+				3418CE372733E0C4006C5B58 /* Solution_7.swift */,
+			);
+			path = "0007_整数反转";
 			sourceTree = "<group>";
 		};
 		3485BC942500E141001FE568 /* 0003_无重复字符的最长子串 */ = {
@@ -119,6 +129,7 @@
 				3485BC942500E141001FE568 /* 0003_无重复字符的最长子串 */,
 				3418CE2F273395A4006C5B58 /* 0004_ */,
 				348A521D273299DE006C301B /* 0006_N字形变换 */,
+				3418CE362733E06A006C5B58 /* 0007_整数反转 */,
 				3485BC972501EF99001FE568 /* 0076_最小覆盖子串 */,
 				34D75D8624FFA2AE00670505 /* 0198_打家劫舍 */,
 			);
@@ -197,6 +208,7 @@
 				3485BC962500E1A9001FE568 /* Solution_3.swift in Sources */,
 				3418CE352733967B006C5B58 /* Solution_1.swift in Sources */,
 				348A521F27329A28006C301B /* Solution_6.swift in Sources */,
+				3418CE382733E0C4006C5B58 /* Solution_7.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

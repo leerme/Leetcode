@@ -9,6 +9,6 @@
 import Foundation
 
 print("Hello, World!") 
-//let i = Solution_1.init().twoSum(<#T##nums: [Int]##[Int]#>, <#T##target: Int##Int#>)
+let i = Solution_7.init().reverse(1563847412);
 NSLog("%d", i);
 
