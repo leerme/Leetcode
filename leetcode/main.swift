@@ -9,6 +9,7 @@
 import Foundation
 
 print("Hello, World!") 
-let i = Solution_1451.init().arrangeWords("Keep calm and code on");
-print(i)
+let i = Solution_392.init().isSubsequence("abc", "ahbgdc");
+let j = Solution_392.init().isSubsequence("axc", "ahbgdc");
+print(i,j)
 
