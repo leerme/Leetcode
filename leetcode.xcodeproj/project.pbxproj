@@ -13,6 +13,7 @@
 		3418CE53273A191D006C5B58 /* Solution_392.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418CE52273A191D006C5B58 /* Solution_392.swift */; };
 		3418CE58273A5AD6006C5B58 /* Solution_509.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418CE57273A5AD6006C5B58 /* Solution_509.swift */; };
 		3418CE5B273A8268006C5B58 /* Solution_1137.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418CE5A273A8268006C5B58 /* Solution_1137.swift */; };
+		3418CE5E273B6C3E006C5B58 /* Solution_70.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418CE5D273B6C3E006C5B58 /* Solution_70.swift */; };
 		3485BC962500E1A9001FE568 /* Solution_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3485BC952500E1A9001FE568 /* Solution_3.swift */; };
 		3485BC992501EFFE001FE568 /* Solution_76.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3485BC982501EFFE001FE568 /* Solution_76.swift */; };
 		348A521F27329A28006C301B /* Solution_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A521E27329A28006C301B /* Solution_6.swift */; };
@@ -39,6 +40,7 @@
 		3418CE52273A191D006C5B58 /* Solution_392.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_392.swift; sourceTree = "<group>"; };
 		3418CE57273A5AD6006C5B58 /* Solution_509.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_509.swift; sourceTree = "<group>"; };
 		3418CE5A273A8268006C5B58 /* Solution_1137.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_1137.swift; sourceTree = "<group>"; };
+		3418CE5D273B6C3E006C5B58 /* Solution_70.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_70.swift; sourceTree = "<group>"; };
 		3485BC952500E1A9001FE568 /* Solution_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_3.swift; sourceTree = "<group>"; };
 		3485BC982501EFFE001FE568 /* Solution_76.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_76.swift; sourceTree = "<group>"; };
 		348A521E27329A28006C301B /* Solution_6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_6.swift; sourceTree = "<group>"; };
@@ -58,34 +60,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3418CE2E273395A2006C5B58 /* 0002_ */ = {
+		3418CE2E273395A2006C5B58 /* 02_ */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = 0002_;
+			path = 02_;
 			sourceTree = "<group>";
 		};
-		3418CE2F273395A4006C5B58 /* 0004_ */ = {
+		3418CE2F273395A4006C5B58 /* 04_ */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = 0004_;
+			path = 04_;
 			sourceTree = "<group>";
 		};
-		3418CE332733964F006C5B58 /* 0001_ 两数之和 */ = {
+		3418CE332733964F006C5B58 /* 01_ 两数之和 */ = {
 			isa = PBXGroup;
 			children = (
 				3418CE342733967B006C5B58 /* Solution_1.swift */,
 			);
-			path = "0001_ 两数之和";
+			path = "01_ 两数之和";
 			sourceTree = "<group>";
 		};
-		3418CE362733E06A006C5B58 /* 0007_整数反转 */ = {
+		3418CE362733E06A006C5B58 /* 07_整数反转 */ = {
 			isa = PBXGroup;
 			children = (
 				3418CE372733E0C4006C5B58 /* Solution_7.swift */,
 			);
-			path = "0007_整数反转";
+			path = "07_整数反转";
 			sourceTree = "<group>";
 		};
 		3418CE49273912F8006C5B58 /* 1451_重新排列句子中的单词 */ = {
@@ -99,13 +101,14 @@
 		3418CE4C273A1805006C5B58 /* 0_99 */ = {
 			isa = PBXGroup;
 			children = (
-				3418CE332733964F006C5B58 /* 0001_ 两数之和 */,
-				3418CE2E273395A2006C5B58 /* 0002_ */,
-				3485BC942500E141001FE568 /* 0003_无重复字符的最长子串 */,
-				3418CE2F273395A4006C5B58 /* 0004_ */,
-				348A521D273299DE006C301B /* 0006_N字形变换 */,
-				3418CE362733E06A006C5B58 /* 0007_整数反转 */,
-				3485BC972501EF99001FE568 /* 0076_最小覆盖子串 */,
+				3418CE332733964F006C5B58 /* 01_ 两数之和 */,
+				3418CE2E273395A2006C5B58 /* 02_ */,
+				3485BC942500E141001FE568 /* 03_无重复字符的最长子串 */,
+				3418CE2F273395A4006C5B58 /* 04_ */,
+				348A521D273299DE006C301B /* 06_N字形变换 */,
+				3418CE362733E06A006C5B58 /* 07_整数反转 */,
+				3418CE5C273B6BE0006C5B58 /* 70_爬楼梯 */,
+				3485BC972501EF99001FE568 /* 76_最小覆盖子串 */,
 			);
 			path = 0_99;
 			sourceTree = "<group>";
@@ -181,28 +184,36 @@
 			path = "1137_第 N 个泰波那契数";
 			sourceTree = "<group>";
 		};
-		3485BC942500E141001FE568 /* 0003_无重复字符的最长子串 */ = {
+		3418CE5C273B6BE0006C5B58 /* 70_爬楼梯 */ = {
+			isa = PBXGroup;
+			children = (
+				3418CE5D273B6C3E006C5B58 /* Solution_70.swift */,
+			);
+			path = "70_爬楼梯";
+			sourceTree = "<group>";
+		};
+		3485BC942500E141001FE568 /* 03_无重复字符的最长子串 */ = {
 			isa = PBXGroup;
 			children = (
 				3485BC952500E1A9001FE568 /* Solution_3.swift */,
 			);
-			path = "0003_无重复字符的最长子串";
+			path = "03_无重复字符的最长子串";
 			sourceTree = "<group>";
 		};
-		3485BC972501EF99001FE568 /* 0076_最小覆盖子串 */ = {
+		3485BC972501EF99001FE568 /* 76_最小覆盖子串 */ = {
 			isa = PBXGroup;
 			children = (
 				3485BC982501EFFE001FE568 /* Solution_76.swift */,
 			);
-			path = "0076_最小覆盖子串";
+			path = "76_最小覆盖子串";
 			sourceTree = "<group>";
 		};
-		348A521D273299DE006C301B /* 0006_N字形变换 */ = {
+		348A521D273299DE006C301B /* 06_N字形变换 */ = {
 			isa = PBXGroup;
 			children = (
 				348A521E27329A28006C301B /* Solution_6.swift */,
 			);
-			path = "0006_N字形变换";
+			path = "06_N字形变换";
 			sourceTree = "<group>";
 		};
 		34D75D7324FFA04700670505 = {
@@ -313,6 +324,7 @@
 				3418CE58273A5AD6006C5B58 /* Solution_509.swift in Sources */,
 				348A521F27329A28006C301B /* Solution_6.swift in Sources */,
 				3418CE382733E0C4006C5B58 /* Solution_7.swift in Sources */,
+				3418CE5E273B6C3E006C5B58 /* Solution_70.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
