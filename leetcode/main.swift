@@ -9,7 +9,8 @@
 import Foundation
 
 print("Hello, World!") 
-let i = Solution_746.init().minCostClimbingStairs([10, 15, 20]);
-let j = Solution_746.init().minCostClimbingStairs([1, 100, 1, 1, 1, 100, 1, 1, 100, 1]);
-print(i,j)
+let i = Solution_704.init().search([2,5], 0);
+print(i)
+let j = Solution_704.init().search([-1,0,3,5,9,12], 2);
+print(j)
 

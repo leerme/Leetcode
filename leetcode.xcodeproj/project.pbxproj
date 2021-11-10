@@ -15,6 +15,7 @@
 		3418CE5B273A8268006C5B58 /* Solution_1137.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418CE5A273A8268006C5B58 /* Solution_1137.swift */; };
 		3418CE5E273B6C3E006C5B58 /* Solution_70.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418CE5D273B6C3E006C5B58 /* Solution_70.swift */; };
 		3418CE63273B73F9006C5B58 /* Solution_746.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418CE62273B73F9006C5B58 /* Solution_746.swift */; };
+		3418CE66273B7D88006C5B58 /* Solution_704.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418CE65273B7D88006C5B58 /* Solution_704.swift */; };
 		3485BC962500E1A9001FE568 /* Solution_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3485BC952500E1A9001FE568 /* Solution_3.swift */; };
 		3485BC992501EFFE001FE568 /* Solution_76.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3485BC982501EFFE001FE568 /* Solution_76.swift */; };
 		348A521F27329A28006C301B /* Solution_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A521E27329A28006C301B /* Solution_6.swift */; };
@@ -43,6 +44,7 @@
 		3418CE5A273A8268006C5B58 /* Solution_1137.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_1137.swift; sourceTree = "<group>"; };
 		3418CE5D273B6C3E006C5B58 /* Solution_70.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_70.swift; sourceTree = "<group>"; };
 		3418CE62273B73F9006C5B58 /* Solution_746.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_746.swift; sourceTree = "<group>"; };
+		3418CE65273B7D88006C5B58 /* Solution_704.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_704.swift; sourceTree = "<group>"; };
 		3485BC952500E1A9001FE568 /* Solution_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_3.swift; sourceTree = "<group>"; };
 		3485BC982501EFFE001FE568 /* Solution_76.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_76.swift; sourceTree = "<group>"; };
 		348A521E27329A28006C301B /* Solution_6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_6.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 		3418CE5F273B73AF006C5B58 /* 700_799 */ = {
 			isa = PBXGroup;
 			children = (
+				3418CE64273B7D63006C5B58 /* 704_二分查找 */,
 				3418CE61273B73D6006C5B58 /* 746_使用最小花费爬楼梯 */,
 			);
 			path = 700_799;
@@ -215,6 +218,14 @@
 				3418CE62273B73F9006C5B58 /* Solution_746.swift */,
 			);
 			path = "746_使用最小花费爬楼梯";
+			sourceTree = "<group>";
+		};
+		3418CE64273B7D63006C5B58 /* 704_二分查找 */ = {
+			isa = PBXGroup;
+			children = (
+				3418CE65273B7D88006C5B58 /* Solution_704.swift */,
+			);
+			path = "704_二分查找";
 			sourceTree = "<group>";
 		};
 		3485BC942500E141001FE568 /* 03_无重复字符的最长子串 */ = {
@@ -340,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3418CE66273B7D88006C5B58 /* Solution_704.swift in Sources */,
 				34D75D8824FFA2E700670505 /* Solution_198.swift in Sources */,
 				3485BC992501EFFE001FE568 /* Solution_76.swift in Sources */,
 				34D75D8024FFA04700670505 /* main.swift in Sources */,
