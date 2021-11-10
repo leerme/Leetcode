@@ -9,7 +9,7 @@
 import Foundation
 
 print("Hello, World!") 
-let i = Solution_509.init().fib(3);
-let j = Solution_509.init().fib(4);
+let i = Solution_1137.init().tribonacci(4);
+let j = Solution_1137.init().tribonacci(25);
 print(i,j)
 
