@@ -9,7 +9,7 @@
 import Foundation
 
 print("Hello, World!") 
-let i = Solution_1137.init().tribonacci(4);
-let j = Solution_1137.init().tribonacci(25);
+let i = Solution_746.init().minCostClimbingStairs([10, 15, 20]);
+let j = Solution_746.init().minCostClimbingStairs([1, 100, 1, 1, 1, 100, 1, 1, 100, 1]);
 print(i,j)
 
