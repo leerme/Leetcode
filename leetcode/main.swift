@@ -9,8 +9,8 @@
 import Foundation
 
 print("Hello, World!") 
-let i = Solution_704.init().search([2,5], 0);
+let i = Solution_213.init().rob([2,3,2]);
 print(i)
-let j = Solution_704.init().search([-1,0,3,5,9,12], 2);
+let j = Solution_213.init().rob([1,2,3,1]);
 print(j)
 

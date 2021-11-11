@@ -16,6 +16,7 @@
 		3418CE5E273B6C3E006C5B58 /* Solution_70.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418CE5D273B6C3E006C5B58 /* Solution_70.swift */; };
 		3418CE63273B73F9006C5B58 /* Solution_746.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418CE62273B73F9006C5B58 /* Solution_746.swift */; };
 		3418CE66273B7D88006C5B58 /* Solution_704.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418CE65273B7D88006C5B58 /* Solution_704.swift */; };
+		346A2D5C273CBBE300B96733 /* Solution_213.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A2D5B273CBBE300B96733 /* Solution_213.swift */; };
 		3485BC962500E1A9001FE568 /* Solution_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3485BC952500E1A9001FE568 /* Solution_3.swift */; };
 		3485BC992501EFFE001FE568 /* Solution_76.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3485BC982501EFFE001FE568 /* Solution_76.swift */; };
 		348A521F27329A28006C301B /* Solution_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A521E27329A28006C301B /* Solution_6.swift */; };
@@ -45,6 +46,7 @@
 		3418CE5D273B6C3E006C5B58 /* Solution_70.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_70.swift; sourceTree = "<group>"; };
 		3418CE62273B73F9006C5B58 /* Solution_746.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_746.swift; sourceTree = "<group>"; };
 		3418CE65273B7D88006C5B58 /* Solution_704.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_704.swift; sourceTree = "<group>"; };
+		346A2D5B273CBBE300B96733 /* Solution_213.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_213.swift; sourceTree = "<group>"; };
 		3485BC952500E1A9001FE568 /* Solution_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_3.swift; sourceTree = "<group>"; };
 		3485BC982501EFFE001FE568 /* Solution_76.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_76.swift; sourceTree = "<group>"; };
 		348A521E27329A28006C301B /* Solution_6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_6.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 		3418CE50273A1899006C5B58 /* 200_299 */ = {
 			isa = PBXGroup;
 			children = (
+				346A2D5A273CBBB100B96733 /* 213打家劫舍 II */,
 			);
 			path = 200_299;
 			sourceTree = "<group>";
@@ -226,6 +229,14 @@
 				3418CE65273B7D88006C5B58 /* Solution_704.swift */,
 			);
 			path = "704_二分查找";
+			sourceTree = "<group>";
+		};
+		346A2D5A273CBBB100B96733 /* 213打家劫舍 II */ = {
+			isa = PBXGroup;
+			children = (
+				346A2D5B273CBBE300B96733 /* Solution_213.swift */,
+			);
+			path = "213打家劫舍 II";
 			sourceTree = "<group>";
 		};
 		3485BC942500E141001FE568 /* 03_无重复字符的最长子串 */ = {
@@ -357,6 +368,7 @@
 				34D75D8024FFA04700670505 /* main.swift in Sources */,
 				3485BC962500E1A9001FE568 /* Solution_3.swift in Sources */,
 				3418CE5B273A8268006C5B58 /* Solution_1137.swift in Sources */,
+				346A2D5C273CBBE300B96733 /* Solution_213.swift in Sources */,
 				3418CE352733967B006C5B58 /* Solution_1.swift in Sources */,
 				3418CE53273A191D006C5B58 /* Solution_392.swift in Sources */,
 				3418CE4B27391330006C5B58 /* Solution_1451.swift in Sources */,
