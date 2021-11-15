@@ -9,8 +9,8 @@
 import Foundation
 
 print("Hello, World!") 
-let i = Solution_213.init().rob([2,3,2]);
+let i = Solution_740.init().deleteAndEarn([8,10,4,9,1,3,5,9,4,10]);
 print(i)
-let j = Solution_213.init().rob([1,2,3,1]);
+let j = Solution_740.init().deleteAndEarn([2,2,3,3,3,4]);
 print(j)
 
