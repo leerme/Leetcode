@@ -9,8 +9,8 @@
 import Foundation
 
 print("Hello, World!") 
-let i = Solution_45.init().jump([7,0,9,6,9,6,1,7,9,0,1,2,9,0,3]);
+let i = Solution_53.init().maxSubArray([-2,1,-3,4,-1,2,1,-5,4]);
 print(i)
-//let j = Solution_45.init().jump([2,3,0,1,4]);
-//print(j)
+let j = Solution_53.init().maxSubArray([0]);
+print(j)
 
