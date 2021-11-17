@@ -9,8 +9,8 @@
 import Foundation
 
 print("Hello, World!") 
-let i = Solution_55.init().canJump([1,2]);
+let i = Solution_45.init().jump([7,0,9,6,9,6,1,7,9,0,1,2,9,0,3]);
 print(i)
-//let j = Solution_55.init().canJump([3,2,1,0,4]);
+//let j = Solution_45.init().jump([2,3,0,1,4]);
 //print(j)
 

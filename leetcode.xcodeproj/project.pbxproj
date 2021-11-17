@@ -19,6 +19,7 @@
 		346A2D5C273CBBE300B96733 /* Solution_213.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A2D5B273CBBE300B96733 /* Solution_213.swift */; };
 		346A2D5F273CD3B200B96733 /* Solution_740.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A2D5E273CD3B200B96733 /* Solution_740.swift */; };
 		34765C61274268B200DD2495 /* Solution_55.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34765C60274268B200DD2495 /* Solution_55.swift */; };
+		34765C642742777200DD2495 /* Solution_45.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34765C632742777200DD2495 /* Solution_45.swift */; };
 		3485BC962500E1A9001FE568 /* Solution_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3485BC952500E1A9001FE568 /* Solution_3.swift */; };
 		3485BC992501EFFE001FE568 /* Solution_76.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3485BC982501EFFE001FE568 /* Solution_76.swift */; };
 		348A521F27329A28006C301B /* Solution_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A521E27329A28006C301B /* Solution_6.swift */; };
@@ -51,6 +52,7 @@
 		346A2D5B273CBBE300B96733 /* Solution_213.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_213.swift; sourceTree = "<group>"; };
 		346A2D5E273CD3B200B96733 /* Solution_740.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_740.swift; sourceTree = "<group>"; };
 		34765C60274268B200DD2495 /* Solution_55.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_55.swift; sourceTree = "<group>"; };
+		34765C632742777200DD2495 /* Solution_45.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_45.swift; sourceTree = "<group>"; };
 		3485BC952500E1A9001FE568 /* Solution_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_3.swift; sourceTree = "<group>"; };
 		3485BC982501EFFE001FE568 /* Solution_76.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_76.swift; sourceTree = "<group>"; };
 		348A521E27329A28006C301B /* Solution_6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_6.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				3418CE2F273395A4006C5B58 /* 04_ */,
 				348A521D273299DE006C301B /* 06_N字形变换 */,
 				3418CE362733E06A006C5B58 /* 07_整数反转 */,
+				34765C622742774600DD2495 /* 45_跳跃游戏 II */,
 				3418CE5C273B6BE0006C5B58 /* 70_爬楼梯 */,
 				3485BC972501EF99001FE568 /* 76_最小覆盖子串 */,
 				34765C5F2742688700DD2495 /* 55_跳跃游戏 */,
@@ -261,6 +264,14 @@
 			path = "55_跳跃游戏";
 			sourceTree = "<group>";
 		};
+		34765C622742774600DD2495 /* 45_跳跃游戏 II */ = {
+			isa = PBXGroup;
+			children = (
+				34765C632742777200DD2495 /* Solution_45.swift */,
+			);
+			path = "45_跳跃游戏 II";
+			sourceTree = "<group>";
+		};
 		3485BC942500E141001FE568 /* 03_无重复字符的最长子串 */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,6 +403,7 @@
 				3485BC962500E1A9001FE568 /* Solution_3.swift in Sources */,
 				3418CE5B273A8268006C5B58 /* Solution_1137.swift in Sources */,
 				346A2D5C273CBBE300B96733 /* Solution_213.swift in Sources */,
+				34765C642742777200DD2495 /* Solution_45.swift in Sources */,
 				3418CE352733967B006C5B58 /* Solution_1.swift in Sources */,
 				3418CE53273A191D006C5B58 /* Solution_392.swift in Sources */,
 				3418CE4B27391330006C5B58 /* Solution_1451.swift in Sources */,
