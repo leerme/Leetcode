@@ -22,7 +22,7 @@
 import Foundation
 
 class Solution_53 {
-    //官方动态规划
+    //官方动态规划 Kanade算法
     func maxSubArray(_ nums: [Int]) -> Int {
         var maxCount = nums[0];
         var tempCount = 0;

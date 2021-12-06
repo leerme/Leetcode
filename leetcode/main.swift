@@ -9,8 +9,8 @@
 import Foundation
 
 print("Hello, World!") 
-let i = Solution_53.init().maxSubArray([-2,1,-3,4,-1,2,1,-5,4]);
+let i = Solution_918.init().maxSubarraySumCircular([-2,-3,-1]);
 print(i)
-let j = Solution_53.init().maxSubArray([0]);
+let j = Solution_918.init().maxSubarraySumCircular([5,-3,5]);
 print(j)
 

@@ -17,6 +17,7 @@
 		3418CE63273B73F9006C5B58 /* Solution_746.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418CE62273B73F9006C5B58 /* Solution_746.swift */; };
 		3418CE66273B7D88006C5B58 /* Solution_704.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418CE65273B7D88006C5B58 /* Solution_704.swift */; };
 		341FD9C12744F29E001672D7 /* Solution_53.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341FD9C02744F29E001672D7 /* Solution_53.swift */; };
+		341FD9C62745116F001672D7 /* Solution_918.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341FD9C52745116F001672D7 /* Solution_918.swift */; };
 		346A2D5C273CBBE300B96733 /* Solution_213.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A2D5B273CBBE300B96733 /* Solution_213.swift */; };
 		346A2D5F273CD3B200B96733 /* Solution_740.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A2D5E273CD3B200B96733 /* Solution_740.swift */; };
 		34765C61274268B200DD2495 /* Solution_55.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34765C60274268B200DD2495 /* Solution_55.swift */; };
@@ -51,6 +52,7 @@
 		3418CE62273B73F9006C5B58 /* Solution_746.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_746.swift; sourceTree = "<group>"; };
 		3418CE65273B7D88006C5B58 /* Solution_704.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_704.swift; sourceTree = "<group>"; };
 		341FD9C02744F29E001672D7 /* Solution_53.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_53.swift; sourceTree = "<group>"; };
+		341FD9C52745116F001672D7 /* Solution_918.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_918.swift; sourceTree = "<group>"; };
 		346A2D5B273CBBE300B96733 /* Solution_213.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_213.swift; sourceTree = "<group>"; };
 		346A2D5E273CD3B200B96733 /* Solution_740.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_740.swift; sourceTree = "<group>"; };
 		34765C60274268B200DD2495 /* Solution_55.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_55.swift; sourceTree = "<group>"; };
@@ -133,7 +135,7 @@
 		3418CE4D273A1841006C5B58 /* 100_199 */ = {
 			isa = PBXGroup;
 			children = (
-				34D75D8624FFA2AE00670505 /* 0198_打家劫舍 */,
+				34D75D8624FFA2AE00670505 /* 198_打家劫舍 */,
 			);
 			path = 100_199;
 			sourceTree = "<group>";
@@ -251,6 +253,29 @@
 			path = "53_最大子序和";
 			sourceTree = "<group>";
 		};
+		341FD9C227451114001672D7 /* 900_999 */ = {
+			isa = PBXGroup;
+			children = (
+				341FD9C427451143001672D7 /* 918_环行子数组的最大和 */,
+			);
+			path = 900_999;
+			sourceTree = "<group>";
+		};
+		341FD9C327451116001672D7 /* 800_899 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 800_899;
+			sourceTree = "<group>";
+		};
+		341FD9C427451143001672D7 /* 918_环行子数组的最大和 */ = {
+			isa = PBXGroup;
+			children = (
+				341FD9C52745116F001672D7 /* Solution_918.swift */,
+			);
+			path = "918_环行子数组的最大和";
+			sourceTree = "<group>";
+		};
 		346A2D5A273CBBB100B96733 /* 213打家劫舍 II */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,17 +360,19 @@
 				3418CE54273A5A55006C5B58 /* 500_599 */,
 				3418CE60273B73B2006C5B58 /* 600_699 */,
 				3418CE5F273B73AF006C5B58 /* 700_799 */,
+				341FD9C327451116001672D7 /* 800_899 */,
+				341FD9C227451114001672D7 /* 900_999 */,
 				3418CE4E273A186E006C5B58 /* 1000_2000 */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
 		};
-		34D75D8624FFA2AE00670505 /* 0198_打家劫舍 */ = {
+		34D75D8624FFA2AE00670505 /* 198_打家劫舍 */ = {
 			isa = PBXGroup;
 			children = (
 				34D75D8724FFA2E700670505 /* Solution_198.swift */,
 			);
-			path = "0198_打家劫舍";
+			path = "198_打家劫舍";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -417,6 +444,7 @@
 				34765C642742777200DD2495 /* Solution_45.swift in Sources */,
 				3418CE352733967B006C5B58 /* Solution_1.swift in Sources */,
 				3418CE53273A191D006C5B58 /* Solution_392.swift in Sources */,
+				341FD9C62745116F001672D7 /* Solution_918.swift in Sources */,
 				3418CE4B27391330006C5B58 /* Solution_1451.swift in Sources */,
 				341FD9C12744F29E001672D7 /* Solution_53.swift in Sources */,
 				3418CE58273A5AD6006C5B58 /* Solution_509.swift in Sources */,
