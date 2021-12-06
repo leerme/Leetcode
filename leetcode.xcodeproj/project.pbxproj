@@ -18,6 +18,8 @@
 		3418CE66273B7D88006C5B58 /* Solution_704.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418CE65273B7D88006C5B58 /* Solution_704.swift */; };
 		341FD9C12744F29E001672D7 /* Solution_53.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341FD9C02744F29E001672D7 /* Solution_53.swift */; };
 		341FD9C62745116F001672D7 /* Solution_918.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341FD9C52745116F001672D7 /* Solution_918.swift */; };
+		345CB71C275DF7CE00335C4B /* Solution_152.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB71B275DF7CE00335C4B /* Solution_152.swift */; };
+		345CB71F275E1C3400335C4B /* Solutiion_1567.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB71E275E1C3400335C4B /* Solutiion_1567.swift */; };
 		346A2D5C273CBBE300B96733 /* Solution_213.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A2D5B273CBBE300B96733 /* Solution_213.swift */; };
 		346A2D5F273CD3B200B96733 /* Solution_740.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A2D5E273CD3B200B96733 /* Solution_740.swift */; };
 		34765C61274268B200DD2495 /* Solution_55.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34765C60274268B200DD2495 /* Solution_55.swift */; };
@@ -53,6 +55,8 @@
 		3418CE65273B7D88006C5B58 /* Solution_704.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_704.swift; sourceTree = "<group>"; };
 		341FD9C02744F29E001672D7 /* Solution_53.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_53.swift; sourceTree = "<group>"; };
 		341FD9C52745116F001672D7 /* Solution_918.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_918.swift; sourceTree = "<group>"; };
+		345CB71B275DF7CE00335C4B /* Solution_152.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_152.swift; sourceTree = "<group>"; };
+		345CB71E275E1C3400335C4B /* Solutiion_1567.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solutiion_1567.swift; sourceTree = "<group>"; };
 		346A2D5B273CBBE300B96733 /* Solution_213.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_213.swift; sourceTree = "<group>"; };
 		346A2D5E273CD3B200B96733 /* Solution_740.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_740.swift; sourceTree = "<group>"; };
 		34765C60274268B200DD2495 /* Solution_55.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_55.swift; sourceTree = "<group>"; };
@@ -135,6 +139,7 @@
 		3418CE4D273A1841006C5B58 /* 100_199 */ = {
 			isa = PBXGroup;
 			children = (
+				345CB71A275DF79800335C4B /* 152_积乘最大子数组 */,
 				34D75D8624FFA2AE00670505 /* 198_打家劫舍 */,
 			);
 			path = 100_199;
@@ -143,6 +148,7 @@
 		3418CE4E273A186E006C5B58 /* 1000_2000 */ = {
 			isa = PBXGroup;
 			children = (
+				345CB71D275E0C3B00335C4B /* 1567_乘积为正数的最长子数组长度 */,
 				3418CE59273A8239006C5B58 /* 1137_第 N 个泰波那契数 */,
 				3418CE49273912F8006C5B58 /* 1451_重新排列句子中的单词 */,
 			);
@@ -274,6 +280,22 @@
 				341FD9C52745116F001672D7 /* Solution_918.swift */,
 			);
 			path = "918_环行子数组的最大和";
+			sourceTree = "<group>";
+		};
+		345CB71A275DF79800335C4B /* 152_积乘最大子数组 */ = {
+			isa = PBXGroup;
+			children = (
+				345CB71B275DF7CE00335C4B /* Solution_152.swift */,
+			);
+			path = "152_积乘最大子数组";
+			sourceTree = "<group>";
+		};
+		345CB71D275E0C3B00335C4B /* 1567_乘积为正数的最长子数组长度 */ = {
+			isa = PBXGroup;
+			children = (
+				345CB71E275E1C3400335C4B /* Solutiion_1567.swift */,
+			);
+			path = "1567_乘积为正数的最长子数组长度";
 			sourceTree = "<group>";
 		};
 		346A2D5A273CBBB100B96733 /* 213打家劫舍 II */ = {
@@ -439,9 +461,11 @@
 				34D75D8024FFA04700670505 /* main.swift in Sources */,
 				346A2D5F273CD3B200B96733 /* Solution_740.swift in Sources */,
 				3485BC962500E1A9001FE568 /* Solution_3.swift in Sources */,
+				345CB71C275DF7CE00335C4B /* Solution_152.swift in Sources */,
 				3418CE5B273A8268006C5B58 /* Solution_1137.swift in Sources */,
 				346A2D5C273CBBE300B96733 /* Solution_213.swift in Sources */,
 				34765C642742777200DD2495 /* Solution_45.swift in Sources */,
+				345CB71F275E1C3400335C4B /* Solutiion_1567.swift in Sources */,
 				3418CE352733967B006C5B58 /* Solution_1.swift in Sources */,
 				3418CE53273A191D006C5B58 /* Solution_392.swift in Sources */,
 				341FD9C62745116F001672D7 /* Solution_918.swift in Sources */,
