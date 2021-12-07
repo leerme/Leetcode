@@ -20,6 +20,7 @@
 		341FD9C62745116F001672D7 /* Solution_918.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341FD9C52745116F001672D7 /* Solution_918.swift */; };
 		345CB71C275DF7CE00335C4B /* Solution_152.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB71B275DF7CE00335C4B /* Solution_152.swift */; };
 		345CB71F275E1C3400335C4B /* Solutiion_1567.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB71E275E1C3400335C4B /* Solutiion_1567.swift */; };
+		345CB722275ED55E00335C4B /* Solution_1014.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB721275ED55E00335C4B /* Solution_1014.swift */; };
 		346A2D5C273CBBE300B96733 /* Solution_213.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A2D5B273CBBE300B96733 /* Solution_213.swift */; };
 		346A2D5F273CD3B200B96733 /* Solution_740.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A2D5E273CD3B200B96733 /* Solution_740.swift */; };
 		34765C61274268B200DD2495 /* Solution_55.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34765C60274268B200DD2495 /* Solution_55.swift */; };
@@ -57,6 +58,7 @@
 		341FD9C52745116F001672D7 /* Solution_918.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_918.swift; sourceTree = "<group>"; };
 		345CB71B275DF7CE00335C4B /* Solution_152.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_152.swift; sourceTree = "<group>"; };
 		345CB71E275E1C3400335C4B /* Solutiion_1567.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solutiion_1567.swift; sourceTree = "<group>"; };
+		345CB721275ED55E00335C4B /* Solution_1014.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_1014.swift; sourceTree = "<group>"; };
 		346A2D5B273CBBE300B96733 /* Solution_213.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_213.swift; sourceTree = "<group>"; };
 		346A2D5E273CD3B200B96733 /* Solution_740.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_740.swift; sourceTree = "<group>"; };
 		34765C60274268B200DD2495 /* Solution_55.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_55.swift; sourceTree = "<group>"; };
@@ -148,9 +150,10 @@
 		3418CE4E273A186E006C5B58 /* 1000_2000 */ = {
 			isa = PBXGroup;
 			children = (
-				345CB71D275E0C3B00335C4B /* 1567_乘积为正数的最长子数组长度 */,
+				345CB720275ED54400335C4B /* 1014_最佳观光组合 */,
 				3418CE59273A8239006C5B58 /* 1137_第 N 个泰波那契数 */,
 				3418CE49273912F8006C5B58 /* 1451_重新排列句子中的单词 */,
+				345CB71D275E0C3B00335C4B /* 1567_乘积为正数的最长子数组长度 */,
 			);
 			path = 1000_2000;
 			sourceTree = "<group>";
@@ -296,6 +299,14 @@
 				345CB71E275E1C3400335C4B /* Solutiion_1567.swift */,
 			);
 			path = "1567_乘积为正数的最长子数组长度";
+			sourceTree = "<group>";
+		};
+		345CB720275ED54400335C4B /* 1014_最佳观光组合 */ = {
+			isa = PBXGroup;
+			children = (
+				345CB721275ED55E00335C4B /* Solution_1014.swift */,
+			);
+			path = "1014_最佳观光组合";
 			sourceTree = "<group>";
 		};
 		346A2D5A273CBBB100B96733 /* 213打家劫舍 II */ = {
@@ -457,6 +468,7 @@
 			files = (
 				3418CE66273B7D88006C5B58 /* Solution_704.swift in Sources */,
 				34D75D8824FFA2E700670505 /* Solution_198.swift in Sources */,
+				345CB722275ED55E00335C4B /* Solution_1014.swift in Sources */,
 				3485BC992501EFFE001FE568 /* Solution_76.swift in Sources */,
 				34D75D8024FFA04700670505 /* main.swift in Sources */,
 				346A2D5F273CD3B200B96733 /* Solution_740.swift in Sources */,
