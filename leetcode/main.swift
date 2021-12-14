@@ -9,8 +9,8 @@
 import Foundation
 
 print("Hello, World!") 
-let i = Solution_1014.init().maxScoreSightseeingPair([2,2,2]);
+let i = Solution_122.init().maxProfit([7,1,5,3,6,4]);
 print(i)
-let j = Solution_1567.init().getMaxLen([1,2,3,5,-6,4,0,10]);
+let j = Solution_122.init().maxProfit([1,2,3,4,5]);
 print(j)
 
