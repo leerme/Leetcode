@@ -20,6 +20,7 @@
 		341FD9C62745116F001672D7 /* Solution_918.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341FD9C52745116F001672D7 /* Solution_918.swift */; };
 		344E305B275F764B00B93C96 /* Solution_121.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344E305A275F764B00B93C96 /* Solution_121.swift */; };
 		344E305E2762158200B93C96 /* Solution_122.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344E305D2762158200B93C96 /* Solution_122.swift */; };
+		345A1FC32768528C00258795 /* Solution_123.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345A1FC22768528C00258795 /* Solution_123.swift */; };
 		345CB71C275DF7CE00335C4B /* Solution_152.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB71B275DF7CE00335C4B /* Solution_152.swift */; };
 		345CB71F275E1C3400335C4B /* Solutiion_1567.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB71E275E1C3400335C4B /* Solutiion_1567.swift */; };
 		345CB722275ED55E00335C4B /* Solution_1014.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB721275ED55E00335C4B /* Solution_1014.swift */; };
@@ -60,6 +61,7 @@
 		341FD9C52745116F001672D7 /* Solution_918.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_918.swift; sourceTree = "<group>"; };
 		344E305A275F764B00B93C96 /* Solution_121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_121.swift; sourceTree = "<group>"; };
 		344E305D2762158200B93C96 /* Solution_122.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_122.swift; sourceTree = "<group>"; };
+		345A1FC22768528C00258795 /* Solution_123.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_123.swift; sourceTree = "<group>"; };
 		345CB71B275DF7CE00335C4B /* Solution_152.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_152.swift; sourceTree = "<group>"; };
 		345CB71E275E1C3400335C4B /* Solutiion_1567.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solutiion_1567.swift; sourceTree = "<group>"; };
 		345CB721275ED55E00335C4B /* Solution_1014.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_1014.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 			children = (
 				344E3059275F762E00B93C96 /* 121_买卖股票的最佳时机 */,
 				344E305C2762155A00B93C96 /* 122_买卖股票的最佳时机2 */,
+				345A1FC12768524200258795 /* 123_买卖股票的最佳时机3 */,
 				345CB71A275DF79800335C4B /* 152_积乘最大子数组 */,
 				34D75D8624FFA2AE00670505 /* 198_打家劫舍 */,
 			);
@@ -305,6 +308,14 @@
 				344E305D2762158200B93C96 /* Solution_122.swift */,
 			);
 			path = "122_买卖股票的最佳时机2";
+			sourceTree = "<group>";
+		};
+		345A1FC12768524200258795 /* 123_买卖股票的最佳时机3 */ = {
+			isa = PBXGroup;
+			children = (
+				345A1FC22768528C00258795 /* Solution_123.swift */,
+			);
+			path = "123_买卖股票的最佳时机3";
 			sourceTree = "<group>";
 		};
 		345CB71A275DF79800335C4B /* 152_积乘最大子数组 */ = {
@@ -499,6 +510,7 @@
 				3418CE5B273A8268006C5B58 /* Solution_1137.swift in Sources */,
 				346A2D5C273CBBE300B96733 /* Solution_213.swift in Sources */,
 				34765C642742777200DD2495 /* Solution_45.swift in Sources */,
+				345A1FC32768528C00258795 /* Solution_123.swift in Sources */,
 				345CB71F275E1C3400335C4B /* Solutiion_1567.swift in Sources */,
 				3418CE352733967B006C5B58 /* Solution_1.swift in Sources */,
 				3418CE53273A191D006C5B58 /* Solution_392.swift in Sources */,

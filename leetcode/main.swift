@@ -9,8 +9,8 @@
 import Foundation
 
 print("Hello, World!") 
-let i = Solution_122.init().maxProfit([7,1,5,3,6,4]);
+let i = Solution_123.init().maxProfit([3,3,5,0,0,3,1,4]);
 print(i)
-let j = Solution_122.init().maxProfit([1,2,3,4,5]);
+let j = Solution_123.init().maxProfit([1,2,3,4,5]);
 print(j)
 
