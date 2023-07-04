@@ -21,6 +21,7 @@
 		344E305B275F764B00B93C96 /* Solution_121.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344E305A275F764B00B93C96 /* Solution_121.swift */; };
 		344E305E2762158200B93C96 /* Solution_122.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344E305D2762158200B93C96 /* Solution_122.swift */; };
 		345A1FC32768528C00258795 /* Solution_123.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345A1FC22768528C00258795 /* Solution_123.swift */; };
+		345A1FC627688CD800258795 /* Solution_207.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345A1FC527688CD800258795 /* Solution_207.swift */; };
 		345CB71C275DF7CE00335C4B /* Solution_152.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB71B275DF7CE00335C4B /* Solution_152.swift */; };
 		345CB71F275E1C3400335C4B /* Solutiion_1567.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB71E275E1C3400335C4B /* Solutiion_1567.swift */; };
 		345CB722275ED55E00335C4B /* Solution_1014.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB721275ED55E00335C4B /* Solution_1014.swift */; };
@@ -33,6 +34,7 @@
 		348A521F27329A28006C301B /* Solution_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A521E27329A28006C301B /* Solution_6.swift */; };
 		34D75D8024FFA04700670505 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D75D7F24FFA04700670505 /* main.swift */; };
 		34D75D8824FFA2E700670505 /* Solution_198.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D75D8724FFA2E700670505 /* Solution_198.swift */; };
+		34F2B0F9276C4010008B6084 /* Offer_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F2B0F8276C4010008B6084 /* Offer_1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +64,7 @@
 		344E305A275F764B00B93C96 /* Solution_121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_121.swift; sourceTree = "<group>"; };
 		344E305D2762158200B93C96 /* Solution_122.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_122.swift; sourceTree = "<group>"; };
 		345A1FC22768528C00258795 /* Solution_123.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_123.swift; sourceTree = "<group>"; };
+		345A1FC527688CD800258795 /* Solution_207.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_207.swift; sourceTree = "<group>"; };
 		345CB71B275DF7CE00335C4B /* Solution_152.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_152.swift; sourceTree = "<group>"; };
 		345CB71E275E1C3400335C4B /* Solutiion_1567.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solutiion_1567.swift; sourceTree = "<group>"; };
 		345CB721275ED55E00335C4B /* Solution_1014.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_1014.swift; sourceTree = "<group>"; };
@@ -75,6 +78,7 @@
 		34D75D7C24FFA04700670505 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D75D7F24FFA04700670505 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		34D75D8724FFA2E700670505 /* Solution_198.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_198.swift; sourceTree = "<group>"; };
+		34F2B0F8276C4010008B6084 /* Offer_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer_1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +182,8 @@
 		3418CE50273A1899006C5B58 /* 200_299 */ = {
 			isa = PBXGroup;
 			children = (
-				346A2D5A273CBBB100B96733 /* 213打家劫舍 II */,
+				345A1FC427688C9E00258795 /* 207_课程表 */,
+				346A2D5A273CBBB100B96733 /* 213_打家劫舍 II */,
 			);
 			path = 200_299;
 			sourceTree = "<group>";
@@ -318,6 +323,14 @@
 			path = "123_买卖股票的最佳时机3";
 			sourceTree = "<group>";
 		};
+		345A1FC427688C9E00258795 /* 207_课程表 */ = {
+			isa = PBXGroup;
+			children = (
+				345A1FC527688CD800258795 /* Solution_207.swift */,
+			);
+			path = "207_课程表";
+			sourceTree = "<group>";
+		};
 		345CB71A275DF79800335C4B /* 152_积乘最大子数组 */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,12 +355,12 @@
 			path = "1014_最佳观光组合";
 			sourceTree = "<group>";
 		};
-		346A2D5A273CBBB100B96733 /* 213打家劫舍 II */ = {
+		346A2D5A273CBBB100B96733 /* 213_打家劫舍 II */ = {
 			isa = PBXGroup;
 			children = (
 				346A2D5B273CBBE300B96733 /* Solution_213.swift */,
 			);
-			path = "213打家劫舍 II";
+			path = "213_打家劫舍 II";
 			sourceTree = "<group>";
 		};
 		346A2D5D273CD37800B96733 /* 740_删除并获得点数 */ = {
@@ -418,6 +431,8 @@
 			isa = PBXGroup;
 			children = (
 				34D75D7F24FFA04700670505 /* main.swift */,
+				34F2B0F7276C3FD9008B6084 /* 剑指Offer */,
+				34F2B0F6276C3FB9008B6084 /* 剑指Offer2 */,
 				3418CE4C273A1805006C5B58 /* 0_99 */,
 				3418CE4D273A1841006C5B58 /* 100_199 */,
 				3418CE50273A1899006C5B58 /* 200_299 */,
@@ -439,6 +454,29 @@
 				34D75D8724FFA2E700670505 /* Solution_198.swift */,
 			);
 			path = "198_打家劫舍";
+			sourceTree = "<group>";
+		};
+		34F2B0F6276C3FB9008B6084 /* 剑指Offer2 */ = {
+			isa = PBXGroup;
+			children = (
+				34F2B0FA276C4024008B6084 /* 001_整数除法 */,
+			);
+			path = "剑指Offer2";
+			sourceTree = "<group>";
+		};
+		34F2B0F7276C3FD9008B6084 /* 剑指Offer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "剑指Offer";
+			sourceTree = "<group>";
+		};
+		34F2B0FA276C4024008B6084 /* 001_整数除法 */ = {
+			isa = PBXGroup;
+			children = (
+				34F2B0F8276C4010008B6084 /* Offer_1.swift */,
+			);
+			path = "001_整数除法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -500,10 +538,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3418CE66273B7D88006C5B58 /* Solution_704.swift in Sources */,
+				345A1FC627688CD800258795 /* Solution_207.swift in Sources */,
 				34D75D8824FFA2E700670505 /* Solution_198.swift in Sources */,
 				345CB722275ED55E00335C4B /* Solution_1014.swift in Sources */,
 				3485BC992501EFFE001FE568 /* Solution_76.swift in Sources */,
 				34D75D8024FFA04700670505 /* main.swift in Sources */,
+				34F2B0F9276C4010008B6084 /* Offer_1.swift in Sources */,
 				346A2D5F273CD3B200B96733 /* Solution_740.swift in Sources */,
 				3485BC962500E1A9001FE568 /* Solution_3.swift in Sources */,
 				345CB71C275DF7CE00335C4B /* Solution_152.swift in Sources */,
