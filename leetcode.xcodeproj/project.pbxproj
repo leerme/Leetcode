@@ -33,6 +33,7 @@
 		3485BC992501EFFE001FE568 /* Solution_76.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3485BC982501EFFE001FE568 /* Solution_76.swift */; };
 		348A521F27329A28006C301B /* Solution_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A521E27329A28006C301B /* Solution_6.swift */; };
 		34B584DD2A546E300059403C /* Offer_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B584DC2A546E300059403C /* Offer_5.swift */; };
+		34B584E02A570D630059403C /* Offer_58.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B584DF2A570D630059403C /* Offer_58.swift */; };
 		34D75D8024FFA04700670505 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D75D7F24FFA04700670505 /* main.swift */; };
 		34D75D8824FFA2E700670505 /* Solution_198.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D75D8724FFA2E700670505 /* Solution_198.swift */; };
 		34F2B0F9276C4010008B6084 /* Offer2_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F2B0F8276C4010008B6084 /* Offer2_1.swift */; };
@@ -77,6 +78,7 @@
 		3485BC982501EFFE001FE568 /* Solution_76.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_76.swift; sourceTree = "<group>"; };
 		348A521E27329A28006C301B /* Solution_6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_6.swift; sourceTree = "<group>"; };
 		34B584DC2A546E300059403C /* Offer_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer_5.swift; sourceTree = "<group>"; };
+		34B584DF2A570D630059403C /* Offer_58.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer_58.swift; sourceTree = "<group>"; };
 		34D75D7C24FFA04700670505 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D75D7F24FFA04700670505 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		34D75D8724FFA2E700670505 /* Solution_198.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_198.swift; sourceTree = "<group>"; };
@@ -421,6 +423,14 @@
 			path = "005_替换空格";
 			sourceTree = "<group>";
 		};
+		34B584DE2A570D340059403C /* 058_左旋转字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				34B584DF2A570D630059403C /* Offer_58.swift */,
+			);
+			path = "058_左旋转字符串";
+			sourceTree = "<group>";
+		};
 		34D75D7324FFA04700670505 = {
 			isa = PBXGroup;
 			children = (
@@ -470,6 +480,8 @@
 			isa = PBXGroup;
 			children = (
 				34F2B0FA276C4024008B6084 /* 001_整数除法 */,
+				34B584DB2A546DEA0059403C /* 005_替换空格 */,
+				34B584DE2A570D340059403C /* 058_左旋转字符串 */,
 			);
 			path = "剑指Offer2";
 			sourceTree = "<group>";
@@ -477,7 +489,6 @@
 		34F2B0F7276C3FD9008B6084 /* 剑指Offer */ = {
 			isa = PBXGroup;
 			children = (
-				34B584DB2A546DEA0059403C /* 005_替换空格 */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -561,6 +572,7 @@
 				3418CE5B273A8268006C5B58 /* Solution_1137.swift in Sources */,
 				346A2D5C273CBBE300B96733 /* Solution_213.swift in Sources */,
 				34B584DD2A546E300059403C /* Offer_5.swift in Sources */,
+				34B584E02A570D630059403C /* Offer_58.swift in Sources */,
 				34765C642742777200DD2495 /* Solution_45.swift in Sources */,
 				345A1FC32768528C00258795 /* Solution_123.swift in Sources */,
 				345CB71F275E1C3400335C4B /* Solutiion_1567.swift in Sources */,

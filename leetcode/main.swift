@@ -9,6 +9,6 @@
 import Foundation
 
 print("Hello, World!") 
-let i = Offer_5.init().replaceSpace("hello world")
+let i = Offer_58.init().reverseLeftWords("helloworld", 4)
 print(i)
 
