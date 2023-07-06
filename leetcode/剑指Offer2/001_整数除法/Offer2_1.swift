@@ -31,7 +31,7 @@
  著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。*/
 import Foundation
 
-class Offer_1 {
+class Offer2_1 {
     func divide(_ a: Int, _ b: Int) -> Int {
         var dividend = a;
         var divisor = b;

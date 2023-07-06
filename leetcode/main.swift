@@ -9,8 +9,6 @@
 import Foundation
 
 print("Hello, World!") 
-let i = Solution_123.init().maxProfit([3,3,5,0,0,3,1,4]);
+let i = Offer_5.init().replaceSpace("hello world")
 print(i)
-let j = Solution_123.init().maxProfit([1,2,3,4,5]);
-print(j)
 
