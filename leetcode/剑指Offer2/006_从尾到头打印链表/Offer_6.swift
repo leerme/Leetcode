@@ -17,17 +17,7 @@
  */
 import Foundation
 
-
-public class ListNode {
-    public var val: Int
-    public var next: ListNode?
-    public init(_ val: Int) {
-        self.val = val
-        self.next = nil
-    }
-}
-
-class Solution {
+class Offer_6 {
     func reversePrint(_ head: ListNode?) -> [Int] {
         var a:[Int] = [];
         var phead = head

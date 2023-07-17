@@ -35,6 +35,8 @@
 		34B584DD2A546E300059403C /* Offer_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B584DC2A546E300059403C /* Offer_5.swift */; };
 		34B584E02A570D630059403C /* Offer_58.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B584DF2A570D630059403C /* Offer_58.swift */; };
 		34B584E52A5EF7D80059403C /* Offer_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B584E42A5EF7D80059403C /* Offer_6.swift */; };
+		34B584EA2A6593900059403C /* Offer_24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B584E92A6593900059403C /* Offer_24.swift */; };
+		34B584EC2A6593EC0059403C /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B584EB2A6593EC0059403C /* ListNode.swift */; };
 		34D75D8024FFA04700670505 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D75D7F24FFA04700670505 /* main.swift */; };
 		34D75D8824FFA2E700670505 /* Solution_198.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D75D8724FFA2E700670505 /* Solution_198.swift */; };
 		34F2B0F9276C4010008B6084 /* Offer2_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F2B0F8276C4010008B6084 /* Offer2_1.swift */; };
@@ -81,6 +83,8 @@
 		34B584DC2A546E300059403C /* Offer_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer_5.swift; sourceTree = "<group>"; };
 		34B584DF2A570D630059403C /* Offer_58.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer_58.swift; sourceTree = "<group>"; };
 		34B584E42A5EF7D80059403C /* Offer_6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer_6.swift; sourceTree = "<group>"; };
+		34B584E92A6593900059403C /* Offer_24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer_24.swift; sourceTree = "<group>"; };
+		34B584EB2A6593EC0059403C /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		34D75D7C24FFA04700670505 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D75D7F24FFA04700670505 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		34D75D8724FFA2E700670505 /* Solution_198.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_198.swift; sourceTree = "<group>"; };
@@ -441,6 +445,14 @@
 			path = "006_从尾到头打印链表";
 			sourceTree = "<group>";
 		};
+		34B584E82A6593670059403C /* 024_反转链表 */ = {
+			isa = PBXGroup;
+			children = (
+				34B584E92A6593900059403C /* Offer_24.swift */,
+			);
+			path = "024_反转链表";
+			sourceTree = "<group>";
+		};
 		34D75D7324FFA04700670505 = {
 			isa = PBXGroup;
 			children = (
@@ -461,6 +473,7 @@
 			isa = PBXGroup;
 			children = (
 				34D75D7F24FFA04700670505 /* main.swift */,
+				34B584EB2A6593EC0059403C /* ListNode.swift */,
 				34F2B0F7276C3FD9008B6084 /* 剑指Offer */,
 				34F2B0F6276C3FB9008B6084 /* 剑指Offer2 */,
 				3418CE4C273A1805006C5B58 /* 0_99 */,
@@ -500,6 +513,7 @@
 		34F2B0F7276C3FD9008B6084 /* 剑指Offer */ = {
 			isa = PBXGroup;
 			children = (
+				34B584E82A6593670059403C /* 024_反转链表 */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -570,6 +584,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34B584EA2A6593900059403C /* Offer_24.swift in Sources */,
 				3418CE66273B7D88006C5B58 /* Solution_704.swift in Sources */,
 				345A1FC627688CD800258795 /* Solution_207.swift in Sources */,
 				34D75D8824FFA2E700670505 /* Solution_198.swift in Sources */,
@@ -601,6 +616,7 @@
 				3418CE63273B73F9006C5B58 /* Solution_746.swift in Sources */,
 				34765C61274268B200DD2495 /* Solution_55.swift in Sources */,
 				3418CE5E273B6C3E006C5B58 /* Solution_70.swift in Sources */,
+				34B584EC2A6593EC0059403C /* ListNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
