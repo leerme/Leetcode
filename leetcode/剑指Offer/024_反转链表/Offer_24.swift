@@ -10,15 +10,27 @@ import Foundation
 
 class Solution {
     func reverseList(_ head: ListNode?) -> ListNode? {
-        var node = head
-        if (node != nil) {
-            while (node!.next != nil) {
-                var temp = node!.next!.next;
-                node!.next!.next = node;
-                node!.next = nil;
-                node = temp;
-            }
+        if(head == nil || head?.next == nil){
+            return head;
         }
+        
+        var node = reverseList(head?.next);
+        head?.next?.next = node;
+        head?.next = nil;
         return node;
+    }
+}
+
+func reverseList(_ head: ListNode?) -> ListNode? {
+        if head == nil || head?.next == nil {
+            return head
+        }
+        
+
+        let last = reverseList(head?.next)
+        head?.next?.next = head
+        head?.next = nil
+        // 返回的不是 head，此时 head 已经在末尾了
+        return last
     }
 }
